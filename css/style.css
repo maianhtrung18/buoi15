@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+}
+
+
+.form-control{
+    width: 300px;
+    margin: 5px auto;
+}
+
+.container .title{
+    margin-top: 40px;
+}
+
+.ketqua{
+    margin-top: 15px;
+    min-height: 30px;
+}
+.ketqua p{
+    margin-bottom: 0px;
+}
+ul{
+    margin-bottom: 0;
+}
+
+.danhsachbaitap{
+    position: fixed;
+    top: 0px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.bai{
+    border-bottom: 2px solid rgba(214, 214, 71, 0.528);
+}
