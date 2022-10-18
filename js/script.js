@@ -29,10 +29,10 @@ function tinhDiem(){
         else{
             tongDiem = mon1 + mon2 + mon3 + khuVuc + doiTuong;
             if(tongDiem >= diemChuan){
-                document.getElementById("kqKetQua").innerHTML = "Passed";
+                document.getElementById("kqKetQua").innerHTML = `Tổng số điểm đạt được: ${tongDiem} Passed`;
             }
             else{
-                document.getElementById("kqKetQua").innerHTML = "Failed";
+                document.getElementById("kqKetQua").innerHTML = `Tổng số điểm đạt được: ${tongDiem} Failed`;
             }
         }
     }
